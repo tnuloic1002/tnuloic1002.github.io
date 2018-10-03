@@ -1,0 +1,84 @@
+body,p{
+    
+    background-image:url("confusedcat.jpg");
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
+    
+    font-family: 'Playfair Display', serif;/* font[serif] font for basic stuff */
+}
+
+body{ /* fixing the about page paragraph background */
+    background-color:#f5f4f2; /* brownish-original lavender */
+}
+
+h1,h3,h4,th{ /* font for headings or important stuff that needs this */
+    font-family: 'Spirax', cursive;
+}
+
+h1,h3,h4{ 
+    font-size:25pt;
+}
+
+#nav{ /* nav bar list */
+    list-style-type:none;
+    margin:0; /* from top of screen */
+    padding:0;
+    overflow:hidden;
+    /*
+    background-color:white;
+    */
+}
+
+#nav li{ /* nav bar position */
+    float:left;
+}
+
+#nav li a{ /* nav bar words */
+    display:block; /* size of nav bar */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    color:black;
+}
+
+
+#nav li a:hover{ /* hovering over nav bar words */
+    /* background-color:#fccec7; light redish */
+    text-decoration: underline;
+}
+
+hr{ /* horizontal line */
+    border:0;
+    height:2px;
+    box-shadow:3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+.headers{ /* class for headers */
+    text-align: center;
+}
+
+
+.centerhorizontal{ /* CENTER THE LINKS REEEE */
+    display:table;
+    margin:auto;
+}
+
+#contents{ /* this is for index page content */
+
+    width: 68%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:16px;
+    padding-bottom: 16px;  /* padding is between content and border */
+    padding-left:16px;
+    padding-right:16px;
+    text-align: center;
+}
+
+#contents ul{ /* fixing the list in index page */
+    width:25%;
+    margin:auto;
+}

@@ -143,3 +143,7 @@ table{ /* table for about page */
 #ulresume{ /* resume */
     font-weight: bold;
 }
+
+#happya{
+    text-decoration: none;
+}
